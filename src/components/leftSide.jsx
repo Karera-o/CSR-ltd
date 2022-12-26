@@ -1,5 +1,10 @@
 import React from 'react'
-
+import {CgMenuBoxed} from "react-icons/cg"
+import {RiArrowDownSLine} from "react-icons/ri"
+import {MdSupervisedUserCircle, MdChevronRight} from "react-icons/md"
+import {BsGlobe} from "react-icons/bs"
+import {GrSettingsOption} from "react-icons/gr"
+import {GiNotebook} from "react-icons/gi"
 const LeftSide = () => {
   return (
     <div>
@@ -11,7 +16,7 @@ const LeftSide = () => {
             <h1>
                 <span></span>
                 Dashboard
-                <span></span>
+                <span><RiArrowDownSLine /></span>
             </h1>
             <ul>
                 <li>Dashboard Light</li>
@@ -19,18 +24,18 @@ const LeftSide = () => {
         </div>
         <div>
             <h1>
-                <span></span>
+                <span><CgMenuBoxed/></span>
                 Appointment
                 </h1>
                 <ul>
-                    <li><span></span> Staff <span></span></li>
+                    <li><span><MdSupervisedUserCircle/></span> Staff <span>MdChevronRight</span></li>
                 </ul>
         </div>
 
         <div>
-            <h1><span></span> Widget</h1>
+            <h1><span><GrSettingsOption/></span> Widget</h1>
             <ul>
-                <li><span></span> Forms</li>
+                <li><span><GiNotebook/></span> Forms</li>
             </ul>
         </div>
 
