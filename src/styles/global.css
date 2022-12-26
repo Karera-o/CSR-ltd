@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities{
+
+    .green{
+        background-color: #36C95F ;
+    }
+    .blue{
+        background-color:#369FCA ;
+    }
+    .red{
+        background-color: #F46E6B;
+    }
+    .purple{
+        background-color: #B65BD3;
+    }
+}
