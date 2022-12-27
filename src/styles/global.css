@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,4 +18,30 @@
     .purple{
         background-color: #B65BD3;
     }
+    .flex-c{
+        @apply flex flex-col items-center
+    }
+    .flex-r{
+        @apply flex flex-row items-center
+    }
+    .text-g{
+        color: #36C95F !important;
+    }
+    .nunito{
+        font-family: 'Nunito', sans-serif;
+    }
+    .rounded-top{
+        border-top-right-radius: 10px;
+    }
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F6FBF8;
+}
+
+h1,h2,p,li{
+    box-sizing: border-box;
+    color: #838282;
 }
