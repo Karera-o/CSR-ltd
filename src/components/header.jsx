@@ -5,7 +5,7 @@ import {AiOutlineGift} from 'react-icons/ai'
 import {CgMenuRight} from 'react-icons/cg'
 const Header = () => {
   return (
-    <div className='flex-r justify-between px-5 bg-white h-16'>
+    <div className='flex-r justify-between px-5 bg-white h-20 sticky top-0 z-10"'>
         <div className='flex-r gap-x-3'>
             <span className='text-g '><CgMenuRight /></span>
             <h1 className='nunito font-bold text-black'>Dashboard</h1>

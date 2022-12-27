@@ -1,12 +1,11 @@
-import Search from 'antd/es/transfer/search';
 import React from 'react'
 import { BsSearch } from 'react-icons/bs';
 import {CiSettings} from "react-icons/ci"
 
 const Section1 = () => {
   return (
-    <div className='flex-r justify-between nunito pt'>
-        <div className=''>
+    <div className='flex-r justify-between nunito '>
+        <div >
             <h1 className='text-sm font-bold text-black'>Welcome to Eres!</h1>
             <p className='text-xs'>Hospital Admin Dashboard Template</p>
         </div>
