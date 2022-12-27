@@ -1,10 +1,14 @@
 import React from 'react'
 import {CgMenuBoxed} from "react-icons/cg"
 import {RiArrowDownSLine} from "react-icons/ri"
-import {MdSupervisedUserCircle, MdChevronRight} from "react-icons/md"
+import {MdSupervisedUserCircle, MdChevronRight,MdTableView} from "react-icons/md"
 import {BsGlobe, BsArrowRight,BsMenuButtonWide} from "react-icons/bs"
-import {GrSettingsOption} from "react-icons/gr"
+import {GrAppleAppStore} from "react-icons/gr"
 import {GiNotebook} from "react-icons/gi"
+import {AiOutlineBarChart} from "react-icons/ai"
+import {TbHeartbeat} from "react-icons/tb"
+import {CiSettings} from "react-icons/ci"
+import {RiStackLine} from "react-icons/ri"
 
 const LeftSide = () => {
 
@@ -14,36 +18,36 @@ const LeftSide = () => {
 
     const list2 = [{
         title: "Staff",
-        icon: <MdSupervisedUserCircle/>
+        icon: <MdSupervisedUserCircle size='.9rem'/>
     },
     {
         title: "Apps",
-        icon: <MdSupervisedUserCircle/>
+        icon: <GrAppleAppStore/>
     },
     {
         title: "Charts",
-        icon: <MdSupervisedUserCircle/>
+        icon: <AiOutlineBarChart size='.9rem'/>
     },
     {
         title: "Bootstrap",
-        icon: <MdSupervisedUserCircle/>
+        icon: <BsGlobe size='.9rem'/>
     },
     {
         title: "Plugins",
-        icon: <MdSupervisedUserCircle/>
+        icon: <TbHeartbeat size='.9rem'/>
     },
 ]
 const list3 = [{
     title: "Forms",
-    icon: <GiNotebook/>
+    icon: <GiNotebook size='.9rem'/>
 },
 {
     title: "Table",
-    icon: <MdSupervisedUserCircle/>
+    icon: <MdTableView size='.9rem'/>
 },
 {
     title: "Pages",
-    icon: <MdSupervisedUserCircle/>
+    icon: <RiStackLine size='.9rem'/>
 },
 ]
 
@@ -72,7 +76,7 @@ const list3 = [{
         </div>
         <div className='w-full  pl-5 '>
             <h1 className='flex-r gap-x-3 my-2 text-sm'>
-                <span><CgMenuBoxed size="1.3rem"/></span>
+                <span><CgMenuBoxed size="1rem"/></span>
                 Appointment
                 </h1>
                 <ul className="text-xs pr-5">
@@ -88,7 +92,7 @@ const list3 = [{
         </div>
 
         <div className='w-full pl-5'>
-            <h1 className='flex-r gap-x-3 my-2 text-sm'><span><GrSettingsOption className="fill-gray-400"/></span> Widget</h1>
+            <h1 className='flex-r gap-x-3 my-2 text-sm'><span><CiSettings size='1.3rem' className="fill-gray-400"/></span> Widget</h1>
             <ul className="text-xs pr-5">
                 {
                     list3.map(value=>{
@@ -100,7 +104,7 @@ const list3 = [{
             </ul>
         </div>
 
-        <div className="red py-3 px-2 rounded-lg w-5/6 text-xs flex flex-col pl-5 gap-y-2 mt-2">
+        <div className="red py-3 px-2 rounded-lg w-5/6 text-xs flex flex-col pl-5 gap-y-2 mt-5">
 
             <p className="text-white">Check your job <br/> schedule</p>
             <span ><BsArrowRight className="fill-white"/></span>

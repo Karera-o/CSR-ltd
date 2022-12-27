@@ -1,16 +1,15 @@
-import { Badge, Avatar } from 'antd';
 import React from 'react'
 import {MdOutlineNotificationsNone,MdOutlineMessage} from 'react-icons/md'
 import {AiOutlineGift} from 'react-icons/ai'
 import {CgMenuRight} from 'react-icons/cg'
 const Header = () => {
   return (
-    <div className='flex-r justify-between px-5 bg-white h-20 sticky top-0 z-10"'>
+    <div className='flex-r justify-between px-5 bg-white h-24 sticky top-0 z-10"'>
         <div className='flex-r gap-x-3'>
-            <span className='text-g '><CgMenuRight /></span>
+            <span className='text-g '><CgMenuRight size='1.5rem'/></span>
             <h1 className='nunito font-bold text-black'>Dashboard</h1>
         </div>
-        <div className='flex-r gap-x-2'>
+        <div className='flex-r gap-x-4'>
             <div className='relative'>
                 <span className='bg-green-500 block text-white text-[7px] absolute left-4 bottom-5 h-4 w-4 flex-r justify-center rounded-full'>12</span>
                 <div className='border rounded-full p-1'>
