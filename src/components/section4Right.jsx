@@ -33,6 +33,13 @@ const Section4Right = () => {
         state : "Recovered",
         style: "text-green-500"
     },
+    {
+        profile:"/doctor1.webp",
+        name: "Griezerman",
+        years: 24,
+        state : "On Recovery",
+        style: "text-blue-600"
+    },
 ]
   return (
     <div className='bg-white w-4/12 px-6 py-5 nunito flex-c gap-y-2 rounded '>
