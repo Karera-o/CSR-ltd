@@ -30,7 +30,7 @@ const Header = () => {
                 </div>
         </div> 
         <div className='flex-r  rounded-l-[99999px] rounded-r-[90000px] pr-4 bg-gray-100'>
-            <img src="/profile.jpg" alt="" className='rounded-full w-8 h-8 object-cover' />
+            <img src="/profile.webp" alt="" className='rounded-full w-8 h-8 object-cover' />
             <p className=' p-1 text-xs text-g'>Hello, <span className=' font-semibold'>Roberto</span></p>
         </div>
         </div>

@@ -4,6 +4,7 @@ import LeftSide from "../components/leftSide";
 import Section1 from "../components/section1";
 import Section2 from "../components/section2";
 import Section4 from "../components/section4";
+import Section4Right from "../components/section4Right";
 
 export default function Home() {
   return (
@@ -16,11 +17,12 @@ export default function Home() {
   <Header />
   {/* </div> */}
   
-  <div className="px-5 flex flex-col gap-y-3 relative no-scrollbar overflow-scroll">
+  <div className="px-5 flex flex-col gap-y-3 relative no-scrollbar overflow-scroll pb-4">
   <Section1 />
   <Section2 />
-  <div className="mt-52">
+  <div className="mt-52 flex justify-between gap-x-8">
   <Section4 />
+  <Section4Right />
   </div>
   </div>
   

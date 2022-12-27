@@ -51,7 +51,7 @@ const list3 = [{
   return (
     <div className='flex-c  bg-white w-full h-screen '>
         <div className='flex  w-full gap-x-3 py-4 pl-5'>
-            <span><img src="/logo.png" alt="" /></span>
+            <span><img src="/logo.webp" alt="" /></span>
             <p className='uppercase font-bold text-2xl text-green-700'>eres</p>
         </div>
         <div className='w-full nunito pl-5 pr-4'>

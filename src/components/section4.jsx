@@ -8,26 +8,26 @@ import { RiFacebookFill } from 'react-icons/ri';
 const Section4 = () => {
 
     const cards = [{
-        profile: '/doctor1.png',
+        profile: '/doctor1.webp',
         name: 'Dr. Alexandro Jr.',
         occupation:'Dentist',
         description:'Amet laboris nostrud occaecat aliquip laboris proident cillum sint cupidatat fugiat culpa.',    
     },
     {
-        profile: '/doctor2.png',
+        profile: '/doctor2.webp',
         name: 'Dr. Samantha',
         occupation:'Phsyical Therapy',
         description:'Esse excepteur fugiat labore elit elit nostrud cupidatat exercitation nostrud officia incididunt.',    
     },
     {
-        profile: '/doctor3.png',
+        profile: '/doctor3.webp',
         name: 'Dr. Aliandro M',
         occupation:'Nursing',
         description:'In laboris ullamco sunt dolore irure commodo exercitation esse labore aliquip ut.',    
     }
 ]
   return (
-    <div className='bg-white px-6 py-5 justify-center w-7/12 nunito flex flex-col gap-y-2 rounded-lg relative'>
+    <div className='bg-white px-6 py-5 justify-center flex-1 nunito flex flex-col gap-y-2 rounded-lg relative'>
 
         <span className='absolute text-g p-2 drop-shadow-xl rounded left-[-1rem] bg-white'><BiCaretLeft/></span>
         <span className='absolute text-g p-2 drop-shadow-xl rounded right-[-1rem] bg-white'><BiCaretRight/></span>
